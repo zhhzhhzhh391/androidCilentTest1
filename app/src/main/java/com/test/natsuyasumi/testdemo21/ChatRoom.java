@@ -43,7 +43,7 @@ public class ChatRoom extends AppCompatActivity {
         enterChatCode.setCode("100");
         enterChatCode.setToken("1fisnfsnfsiofno");
         JSONObject json = JSONObject.fromObject(enterChatCode);
-
+        System.out.println("第一次修改提交");
         listener.sendMessage(json.toString());
     }
 
