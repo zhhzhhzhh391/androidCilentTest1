@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<allText>
+<dialogues road = "0">
+	<dialog type = "dialog">
+		<text>接下来是button的测试</text>
+	</dialog>
+	<dialog type = "dialog">
+		<text>选择你的种族</text>
+	</dialog>
+	<dialog type = "button">
+		<textA>矮人</textA>
+		<idA>2131165219</idA>
+		<textB>超矮人</textB>
+		<idB>2131165220</idB>
+	</dialog>
+	<dialog type = "threadStop">
+
+	</dialog>
+</dialogues>
+
+	<dialogues road = "矮人">
+	<dialog type = "dialog">
+		<text>因为你是矮人，所以你的装备有：</text>
+	</dialog>
+	<dialog type = "button">
+		<textA>40米大刀</textA>
+		<idA>1</idA>
+		<textB>80米大刀</textB>
+		<idB>2</idB>
+	</dialog>
+	<dialog type = "threadStop"></dialog>
+</dialogues>
+
+	<dialogues road = "超矮人">
+		<dialog type = "dialog">
+			<text>因为你是超矮人，所以你的装备有：</text>
+		</dialog>
+		<dialog type = "button">
+			<textA>狗头铡</textA>
+			<idA>3</idA>
+			<textB>鸟头铡</textB>
+			<idB>4</idB>
+		</dialog>
+		<dialog type = "threadStop"></dialog>
+	</dialogues>
+
+	<dialogues road = "40米大刀">
+		<dialog type = "dialog">
+			<text>你选择了40米大刀作为武器，接下来选择你想要的防具</text>
+		</dialog>
+		<dialog type = "button">
+			<textA>なし</textA>
+			<idA>5</idA>
+			<textB>ばかやろ</textB>
+			<idB>6</idB>
+		</dialog>
+		<dialog type = "threadStop"></dialog>
+	</dialogues>
+
+	<dialogues road = "80米大刀">
+		<dialog type = "dialog">
+			<text>你选择了80米大刀作为武器，接下来选择你想要的防具</text>
+		</dialog>
+		<dialog type = "button">
+			<textA>头盔</textA>
+			<idA>7</idA>
+			<textB>鞋子</textB>
+			<idB>8</idB>
+		</dialog>
+		<dialog type = "threadStop"></dialog>
+	</dialogues>
+
+	<dialogues road = "狗头铡">
+		<dialog type = "dialog">
+			<text>你选狗头铡吃屎？你死了</text>
+		</dialog>
+		<dialog type = "threadStop"></dialog>
+	</dialogues>
+
+	<dialogues road = "鸟头铡">
+		<dialog type = "dialog">
+			<text>请选择一个人的鸟来铡</text>
+		</dialog>
+		<dialog type = "button">
+			<textA>喷水鸟</textA>
+			<idA>9</idA>
+			<textB>bangji</textB>
+			<idB>10</idB>
+		</dialog>
+		<dialog type = "threadStop"></dialog>
+	</dialogues>
+
+</allText>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<allText>
+<dialogues road = "0">
+	<dialog type = "dialog">
+		<text>接下来是text的测试</text>
+	</dialog>
+	<dialog type = "dialog">
+		<text>text长测试</text>
+	</dialog>
+	<dialog type = "dialog">
+		<text>接下来有一段较长的对话</text>
+	</dialog>
+	<dialog type = "dialog">
+		<text>方便我的o'n'Pause函数截取</text>
+	</dialog>
+	<dialog type = "dialog">
+		<text>貌似在button上除了问题</text>
+	</dialog>
+	<dialog type = "threadStop"></dialog>
+</dialogues>
+
+	
+</allText>
