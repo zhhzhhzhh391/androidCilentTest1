@@ -1,6 +1,10 @@
 apply plugin: 'com.android.application'
 
 android {
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.test.natsuyasumi.testdemo21"
@@ -33,5 +37,8 @@ dependencies {
     implementation files('libs/jaxen-1.1.2.jar')
     implementation 'com.squareup.okhttp3:okhttp:4.9.0'
     implementation files('libs/json-lib-2.1-jdk15.jar')
-    implementation files('libs/commons-collections-3.1.jar')
+    implementation files('libs/commons-beanutils-1.8.3.jar')
+    implementation files('libs/commons-lang3-3.1.jar')
+    implementation files('libs/ezmorph-1.0.6.jar')
+    implementation files('libs/commons-collections4-4.4.jar')
 }
